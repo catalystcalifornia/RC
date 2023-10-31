@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Catalyst", "California", , "cringewald@catalystcalifornia.org", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: The package contains the most common user-defined functions that the Research & Data Team use for data analysis in RaceCounts. For example, the functions calculates the county and state disparity z-scores, disparity and performance ranks, and quadrant colors.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
