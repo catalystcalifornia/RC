@@ -1,3 +1,13 @@
+#' Calculate index of disparity
+#'
+#' @param d
+#'
+#' @return An index of disparity column
+#' @export
+#'
+#' @examples
+#' calc_id(d)
+
 #calculate index of disparity
 calc_id <- function(x) {
   diffs <- dplyr::select(x, geoid, best, asbest, values_count, ends_with("_diff"))

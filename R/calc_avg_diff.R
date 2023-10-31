@@ -1,4 +1,14 @@
-#calculate (row wise) mean difference from best#
+#' Calculate (row wise) mean difference from best
+#'
+#' @param d
+#'
+#' @return A column with the avg difference from the best
+#' @export
+#'
+#' @examples
+#' calc_avg_diff(d)
+
+
 calc_avg_diff <- function(x) {
   diffs <- dplyr::select(x, geoid, values_count, ends_with("_diff"))
   counts <- diffs %>% filter(values_count > 1) %>% dplyr::select(-c(values_count))     #filter for counts >1

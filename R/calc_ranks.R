@@ -1,4 +1,14 @@
-#calculate disparity and performance ranks and quadrants
+#' Calculate disparity and performance ranks and quadrants
+#'
+#' @param d
+#'
+#' @return A column with disparity rank, performance rank, and a quadrant color
+#' @export
+#'
+#' @examples
+#' calc_ranks(d)
+
+
 calc_ranks <- function(x) {
   ranks_table <- dplyr::select(x, geoid, asbest, total_rate, index_of_disparity, disparity_z, performance_z)
 

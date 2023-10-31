@@ -1,4 +1,13 @@
-#calculate (row wise) POPULATION variance of differences from best - use for non-sample data like Decennial Census, CDPH Births, or CADOJ Incarceration
+#' Calculate (row wise) POPULATION variance of differences from best - use for non-sample data like Decennial Census, CDPH Births, or CADOJ Incarceration
+#'
+#' @param d
+#'
+#' @return A variance column
+#' @export
+#'
+#' @examples
+#' calc_p_var(d)
+
 calc_p_var <- function(x) {
   suppressWarnings(rm(var))   #removes object 'var' if had been previously defined
   diffs <- dplyr::select(x, geoid, values_count, ends_with("_diff"))

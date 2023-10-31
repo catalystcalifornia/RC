@@ -1,3 +1,13 @@
+#' Calculate County Disparity Z-scores
+#'
+#' @param county_table
+#'
+#' @return Raced disparity z score columns
+#' @export
+#'
+#' @examples
+#' calc_z(county_table)
+
 calc_z <- function(x) {
   #####calculate county disparity z-scores ----
   ## Total/Overall disparity_z score ##

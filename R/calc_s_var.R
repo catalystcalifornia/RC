@@ -1,4 +1,13 @@
-#calculate (row wise) SAMPLE variance of differences from best - use for sample data like ACS or CHIS
+#' Calculate (row wise) SAMPLE variance of differences from best - use for sample data like ACS or CHIS
+#'
+#' @param d
+#'
+#' @return A variance column
+#' @export
+#'
+#' @examples
+#' calc_state_z(state_table)
+
 calc_s_var <- function(x) {
   suppressWarnings(rm(var))   #removes object 'var' if had been previously defined
   diffs <- dplyr::select(x, geoid, values_count, grep("_diff", colnames(x)))

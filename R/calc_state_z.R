@@ -1,3 +1,13 @@
+#' Calculate State Z-scores
+#'
+#' @param state_table
+#'
+#' @return Raced disparity z score columns
+#' @export
+#'
+#' @examples
+#' calc_state_z(state_table)
+
 
 #calculate state z-scores
 calc_state_z <- function(x) {

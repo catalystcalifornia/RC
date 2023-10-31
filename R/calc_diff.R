@@ -1,4 +1,13 @@
-# calc difference from best #
+#' Calculate difference from the best
+#'
+#' @param d
+#'
+#' @return Raced columns with difference from the best
+#' @export
+#'
+#' @examples
+#' calc_diff(d)
+
 
 calc_diff <- function(x) {
   rates <- dplyr::select(x, geoid, best, ends_with("_rate"), -starts_with("total_"), -ends_with("_no_rate"))  #get geoid, raced rate and best columns

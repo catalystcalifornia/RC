@@ -1,5 +1,13 @@
+#' Calculate best rate
+#'
+#' @param d
+#'
+#' @return A column with the best rate
+#' @export
+#'
+#' @examples
+#' calc_best(d)
 
-# calc best rate #
 calc_best <- function(x) {
   rates <- dplyr::select(x, asbest, ends_with("_rate"), -ends_with("_no_rate"), -total_rate)
   rates[rates==0] <- NA                                                         #sub-out zero rates for NA, so that min best calc works correctly
