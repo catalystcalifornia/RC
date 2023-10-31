@@ -1,3 +1,5 @@
+#' @importFrom stats filter sd var dplyr
+
 #calculate number of raced "_rate" values#
 count_values <- function(x) {
   rates <- dplyr::select(x, ends_with("_rate"), -ends_with("_no_rate"), -total_rate)
