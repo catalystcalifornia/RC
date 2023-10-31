@@ -1,5 +1,3 @@
-#' @importFrom stats filter sd var
-
 #' Calculate Number of Raced Rate Values
 #'
 #' @param d
@@ -18,3 +16,5 @@ count_values <- function(x) {
 
   return(x)
 }
+
+#' @importFrom stats filter sd var
