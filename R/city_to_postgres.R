@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-#' to_postgres(county_table) or to_postgres(state_table)
+#' to_postgres(city_table)
 city_to_postgres <- function(x) {
 
   # create connection for rda database

@@ -16,5 +16,5 @@ Postgres table
 Send city table to Postgres
 }
 \examples{
-to_postgres(county_table) or to_postgres(state_table)
+to_postgres(city_table)
 }
