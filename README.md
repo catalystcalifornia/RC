@@ -94,10 +94,7 @@ county_id     | county_name   | total_rate    | aian_rate    | black_rate   | la
 
 
 ## Contact Us
-[Chris Ringewald](https://www.linkedin.com/in/chris-ringewald-6766369/) - cringewald[at]catalystcalifornia.org  <br>
-
-
-[Leila Forouzan](https://www.linkedin.com/in/leilaforouzan/) - lforouzan[at]catalystcalifornia.org
+[Research and Data Analyst Team](https://www.catalystcalifornia.org/how-we-do-it/research-data-analysis) - rda[at]catalystcalifornia.org  <br>
 
 ## Github Link
 [Click here to view the RACE COUNTS Github Repo](https://github.com/catalystcalifornia/RaceCounts)

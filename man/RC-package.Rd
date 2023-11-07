@@ -9,7 +9,7 @@
 The package contains the most common user-defined functions that the Research & Data Team use for data analysis in RaceCounts. For example, the functions calculates the county and state disparity z-scores, disparity and performance ranks, and quadrant colors.
 }
 \author{
-\strong{Maintainer}: Catalyst California \email{cringewald@catalystcalifornia.org} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Catalyst California \email{rda@catalystcalifornia.org} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
 }
 \keyword{internal}
